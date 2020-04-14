@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 class Counter extends Component {
   render() {
-    // React.createElement
     return (
       <div>
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
